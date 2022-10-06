@@ -31,3 +31,11 @@ body {
 #home p.large-text {
   text-align: justify;
 }
+
+#home ul, #home ol {
+  color: white;
+}
+
+#home .list {
+  list-style: none;
+}
