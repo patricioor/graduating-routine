@@ -1,0 +1,33 @@
+/* HOME */
+body {
+  background-color: black;
+}
+
+.wrapper {
+  font-family: sans-serif;
+}
+
+#home h1 {
+  color: #FFFFFF;
+}
+
+#home .wrapper  {
+  color:aquamarine;
+  font-size: 14px;
+}
+
+#home p.align-left  {
+  text-align: left;
+}
+
+#home p.align-center  {
+  text-align: center;
+}
+
+#home p.align-right  {
+  text-align: right;
+}
+
+#home p.large-text {
+  text-align: justify;
+}
