@@ -8,12 +8,18 @@
   </head>
   <body>
     <form
+      
       action="https://pruu.herokuapp.com/dump/test"
       method="post"
       target="_blank"
     >
-      <h2>Address and Residential Contact</h2>
+      <h2>Registration Formulary</h2>
+      <fieldset>
+        <legend> <b> Please, fill in the blanks </b> </legend>
       <div>
+        
+          
+
         <label for="country">Country*:</label>
         <select name="country" id="country">
           <option value="BR">Brazil</option>
@@ -23,26 +29,28 @@
           <option value="RU">Russia</option>
         </select>
         <label for="zipcode">Zip Code*:</label>
-        <input type="text" name="zipcode" id="zipcode" /> <br />
+        <input size = "20" type="text" name="zipcode" id="zipcode" /> 
       </div>
+      <br />
       <div>
         <label for="address">Address*:</label>
-        <input type="text" name="adress" id="adress" />
+        <input size = "20" type="text" name="adress" id="adress" />
         <label for="number">Number*:</label>
-        <input type="number" name="number" id="number" />
+        <input size = "20" type="number" name="number" id="number" />
       </div>
+      <br />
       <div>
         <label for="complement">Complement:</label>
-        <input type="text" name="complement" id="complement" />
+        <input size = "20" type="text" name="complement" id="complement" />
         <label for="State">State*:</label>
         <select name="state" id="state">
           <option value="CE">CE</option>
           <option value="SP">SP</option>
           <option value="RJ">RJ</option>
           <option value="BA">BA</option>
-          <br />
         </select>
       </div>
+      <br />
       <div>
         <label for="city">City*</label>
         <select name="city" id="city">
@@ -52,23 +60,30 @@
           <option value="SSA">Salvador</option>
         </select>
         <label for="district">District*</label>
-        <input type="text" name="distric" id="district"><br>
+        <input size = "20" type="text" name="distric" id="district">
       </div> 
+      <br />
       <div>
         <label for="company">Company</label>
-        <input type="text" name="company" id="company">
+        <input size = "20" type="text" name="company" id="company">
         <label for="profession">Profession</label>
-        <input type="text" name="profession" id="profession"><br>
+        <input size = "20" type="text" name="profession" id="profession"><br>
+        <br />
         <label for="function">Function</label>
-        <input type="text" name="function" id="function">
+        <input size = "20" type="text" name="function" id="function">
         <label for="email">E-mail*</label>
-        <input type="email" name="email" id="email"><br>
+        <input size = "20" placeholder="a@a.com" type="email" name="email" id="email"><br>
+        <br />
         <label for="statePrefix">State Prefix*</label>
-        <input type="number" name="statePrefix" id="statePrefix">
+        <input size = "20" type="number" name="statePrefix" id="statePrefix">
         <label for="telephone">Telephone*</label>
-        <input type="number" name="telephone" id="telephone">
-
-
+        <input size = "20" type="number" name="telephone" id="telephone">
+        <br>
+        <br />
+        <textarea placeholder="Descript your necessity here" name="description" id="description" cols="30" rows="10"></textarea>
+       
+         
+        </fieldset>
       </div>
 
       <button type="submit">Send</button>
