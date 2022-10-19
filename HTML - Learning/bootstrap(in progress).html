@@ -154,16 +154,37 @@
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <h5 class="modal-title" id="exampleModalLabel">Payment with Credit Card</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+                  <form action="https://pruu.herokuapp.com/dump/test" method="post" target="_blank">
                     <div class="modal-body">
-                      ...
+                        <div class="mb-2 row">
+                          <label for="holderName" class="form-label col">Holder</label>
+                          <input name="holderName" type="text" class="form-control col"></input>
+                        </div>
+                        
+                        <div class="mb-2 row">
+                          <label for="cardNumber" class="form-label col">Card Number</label>
+                          <input name="cardNumber" type="text" class="form-control col"></input>
+                        </div>
+                        
+                        <div class="mb-2 row">
+                          <label for="expirationDate" class="form-label col">Expiration Date</label>
+                          <input name="expirationDate" type="text" class="form-control col"></input>
+                        </div>
+
+                        
+                        <div class="mb-2 row">
+                          <label for="cvv" class="form-label col">CVV</label>
+                          <input name="cvv" type="text" class="form-control col"></input>
+                        </div>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+                      <button type="button submit" class="btn btn-primary" data-bs-dismiss="modal">Purshase</button>
                     </div>
+                  </form>
                   </div>
                 </div>
               </div>
@@ -227,8 +248,36 @@
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <h5 class="modal-title" id="exampleModalLabel">Payment only with</h5>
+                      <form action="https://pruu.herokuapp.com/dump/test" method="post" target="_blank">
+                        <div class="modal-body">
+                            <div class="mb-2 row">
+                              <label for="holderName" class="form-label col">Holder</label>
+                              <input name="holderName" type="text" class="form-control col"></input>
+                            </div>
+                            
+                            <div class="mb-2 row">
+                              <label for="cardNumber" class="form-label col">Card Number</label>
+                              <input name="cardNumber" type="text" class="form-control col"></input>
+                            </div>
+                            
+                            <div class="mb-2 row">
+                              <label for="expirationDate" class="form-label col">Expiration Date</label>
+                              <input name="expirationDate" type="text" class="form-control col"></input>
+                            </div>
+    
+                            
+                            <div class="mb-2 row">
+                              <label for="cvv" class="form-label col">CVV</label>
+                              <input name="cvv" type="text" class="form-control col"></input>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button submit" class="btn btn-primary" data-bs-dismiss="modal">Purshase</button>
+                        </div>
+                      </form>
+                      <button type="button submit" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                       ...
@@ -300,9 +349,37 @@
                     <div class="modal-body">
                       ...
                     </div>
+                    <form action="https://pruu.herokuapp.com/dump/test" method="post" target="_blank">
+                      <div class="modal-body">
+                          <div class="mb-2 row">
+                            <label for="holderName" class="form-label col">Holder</label>
+                            <input name="holderName" type="text" class="form-control col"></input>
+                          </div>
+                          
+                          <div class="mb-2 row">
+                            <label for="cardNumber" class="form-label col">Card Number</label>
+                            <input name="cardNumber" type="text" class="form-control col"></input>
+                          </div>
+                          
+                          <div class="mb-2 row">
+                            <label for="expirationDate" class="form-label col">Expiration Date</label>
+                            <input name="expirationDate" type="text" class="form-control col"></input>
+                          </div>
+  
+                          
+                          <div class="mb-2 row">
+                            <label for="cvv" class="form-label col">CVV</label>
+                            <input name="cvv" type="text" class="form-control col"></input>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button submit" class="btn btn-primary" data-bs-dismiss="modal">Purshase</button>
+                      </div>
+                    </form>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+                      <button type="button submit" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
                     </div>
                   </div>
                 </div>
