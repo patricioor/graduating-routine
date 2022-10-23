@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeLogForm1" id="CE7E5918-B013-0707-2D5E-2AE40C718F4A" version="3.5">
+<createdBy>patri</createdBy>
+<createdTime>2022-10-23 14:07:56 UTC</createdTime>
+<ownerDesignName>ModeLogForm1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CE7E5918-B013-0707-2D5E-2AE40C718F4A</designId>
+</OSDM_Design>
