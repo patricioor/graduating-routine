@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Element - ex 6</title>
+</head>
+<body>
+  <ul class="listaTimes">
+
+  </ul>
+  
+</body>
+<script>
+  times = ['Real Madrid', 'Barcelona', 'Manchester United', 'Roma']
+
+  let listaDeTimes = document.querySelector('ul.listaTimes')
+
+  for(let i = 0; i < times.length; i++){
+    let time = times[i];
+    let listItem = document.createElement('li');
+    listItem.innerText = time;
+    listItem.style.border = '1px solid blue';
+    listaDeTimes.appendChild(listItem);
+  }
+
+</script>
+</html>
